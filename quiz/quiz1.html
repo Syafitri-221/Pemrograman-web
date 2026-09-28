@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban Digicraft</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Form Pemesanan Ringkas - Poliban Digicraft &nbsp;&nbsp; <font size="3"><a href="../Kontak.html">Kembali ke Beranda</a></font></h1>
+    </header>
+    <hr>
+
+    <img src="../gambar/Foto Buket Hijab.jpeg" alt="Katalog Buket Bunga" width="350" height="200" >
+    <br>
+    <p><b>Katalog Buket Bunga</b><br>
+    Buket bunga kerajinan tangan estetik, dilengkapi box hadiah dan kartu ucapan kustom</p>
+    <main>
+        <table border="1" cellpadding="8" cellspacing="0" width="100%"> 
+            <thead>
+                <tr bgcolor="#FFB6C1">
+                    <th>Package Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                     <td>Paket Basic</td>
+                     <td>Rp 50.000</td>
+                </tr>
+                <tr>
+                    <td>Paket Standar</td>
+                    <td>Rp 100.000</td>
+                </tr>
+                <tr>
+                    <td>Paket Premium</td>
+                    <td>Rp 150.000</td>
+                </tr>
+                </tr>
+                <br>
+            </tbody>
+         </table> 
+         <br><br>
+
+        <form action="#" method="post">
+        <fieldset>
+            <p><b>Formulir Pemesanan</b></p>
+            <label for="nama_lengkap">Nama Lengkap:</label> 
+            <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" size="40" required>
+            <br><br>
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="email" placeholder="Email" size="40" required>
+            <br><br>
+                
+            <label for="pilih_paket">Paket:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="pilih_paket" id="pilih_paket" required>
+                <option value="">Pilih Paket</option>
+                <option value="Basic">Paket Basic (Rp 50.000)</option>
+                <option value="Standar">Paket Standar (Rp 100.000)</option>
+                <option value="Premium">Paket Premium (Rp 150.000)</option>
+            </select>
+            <br><br>
+
+            <button type="submit"><b>Kirim Pesanan</b></button>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
