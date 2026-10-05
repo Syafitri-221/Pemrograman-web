@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Praktikum 2</title>
+</head>
+<body>
+    <h3>Nama: Ramadhanfi Syafitri</h3>
+    <h3>NIM: E030425087</h3>
+    <hr>
+    
+    <h1>Kuis Praktikum: Form Pemesanan Service</h1>
+    
+    <form action="#" method="post">
+    <table cellpadding="4" cellspacing="0">
+        <tr>
+            <td><label for="nama_Pelanggan">Nama Pelanggan:</label></td>
+            <td><input type="text" name="nama" id="nama" placeholder="Masukkan Nama" size="40" required></td>
+        </tr>
+        <tr>
+            <td><label for="Kategori Layanan">Kategori Layanan:</label></td>
+            <td><select name="kategori_layanan" id="kategori_layanan" required>
+            <option value="Web Development">Web Development</option>
+            <option value="Graphic Design">Graphic Design</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Metode Pembayaran: </label></td>
+            <td>
+                <input type="radio" name="pembayaran_bank" id="pembayaran_bank" value="Bank"> 
+                <label for="metode_pembayaran">Transfer Bank</label> &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="pembayaran_e-wallet" id="pembayaran_e-wallet" value="E-Wallet">
+                <label for="Metode Pembayaran">E-Wallet</label>
+            </td>
+        </tr>
+    </table>
+    </form>
+        
+    <button type="submit"><b>Kirim Form</b></button>
+        
+</body>
+</html>
