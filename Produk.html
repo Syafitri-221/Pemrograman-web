@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=!, initial-scale=1.0">
-    <title>Document</title>
+    <title>Katalog Produk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Bagian Kepala Halaman (Header dan Navigasi)-->
     <header>
-        <h1>Poliban Digicraft Studio</h1>
-        <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
-        <nav>
-            <a href="Biodata.html">Tentang Founder</a> |
-            <a href="Produk.html"><b>Katalog Jasa & Paket Harga</b></a> |
-            <a href="Kontak.html">Kontak dan Pemesanan</a>
-        </nav>
-        <hr>
+        <div class="container">
+            <h1>Poliban Digicraft Studio</h1>
+            <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
+            <nav>
+                <a href="Biodata.html">Tentang Founder</a> |
+                <a href="Produk.html" class="active">Katalog Jasa & Paket Harga</a> |
+                <a href="Kontak.html">Kontak dan Pemesanan</a>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Portofolio & Karya Unggulan Kami</h2>
+
+    <main class="container"> 
+    <section class="section">
+        <h2 class="section-title">Portofolio & Karya Unggulan Kami</h2>
+        <p class="section-subtitle">Beberapa proyek digital yang telah kami selesaikan untuk klien UMKM lokal </p>
 
         <!-- Menampilkan Gambar Mockup (Gunakan gambar yang ada di folder komputer Anda)-->
          <p>
-             <img src="Foto Buket Hijab.jpeg" alt="Foto Buket Hijab" width="350" height="200" >
+             <img src="gambar/Foto Buket Hijab.jpeg" alt="Foto Buket Hijab" width="350" height="200" >
              <br>
              <em>Gambar 1: Buket Hijab Mawar</em>
          </p>
     
         <!-- Menampilkan video Youtube Profile Agensi -->
+         <br>
          <p>
          <h3>Video Profile Kami:</h3>
          <iframe width="560" height="315" src="https://www.youtube.com/embed/6CrYDK6W9Zk?si=TdygM0pmqwHE11hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -76,7 +83,7 @@
             </tbody>
          </table> 
     </section>
-
+    </main>
     <footer>
         <hr>
         <p align="center">&copy; 2026 Poliban Digicraft Studio - Hak Cipta Dilindungi Undang-Undang.</p>
