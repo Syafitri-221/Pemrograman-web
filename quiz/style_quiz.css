@@ -1,0 +1,53 @@
+/* 1. CSS VARIABLES */
+:root {
+    --primary-color: #008080;
+    --primary-dark: #005A5A;
+    --accent-color: #FF9800;
+    --secondary-color: #1A252c;
+    --bg-light: #F4F7F6;
+    --white: #FFFFFF;
+    --text-muted: #666666;
+    --border-color: #E0E0E0;
+    --shadow-soft: 0 4px 12px rgba(0,0,0,0.08);
+    --shadow-hover: 0 8px 24px rgba(0,0,0,0.15);
+    --transition-fast: all 0.3s ease;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-light);
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+th  {
+    background-color: #008080;
+    color: var(--white);
+}
+
+td {
+    background-color: var(--white);
+}
+
+.text_align_right {
+    text-align: right;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.text_bold {
+    font-weight: bold;
+}
